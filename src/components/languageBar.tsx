@@ -4,7 +4,7 @@ class LanguageBar extends Component<{ language: string, percent: number, level: 
     render() {
         let {language, percent, level} = this.props;
         return (
-            <div className="relative pt-1">
+            <div className="pt-1">
                 <div className="flex mb-2 items-center justify-between">
                     <div>
                         <span
