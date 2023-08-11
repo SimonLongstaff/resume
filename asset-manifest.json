@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.339f9b87.css",
-    "main.js": "/resume/static/js/main.f8a0a3ec.js",
-    "static/js/787.dc9ee2bf.chunk.js": "/resume/static/js/787.dc9ee2bf.chunk.js",
-    "index.html": "/resume/index.html",
-    "main.339f9b87.css.map": "/resume/static/css/main.339f9b87.css.map",
-    "main.f8a0a3ec.js.map": "/resume/static/js/main.f8a0a3ec.js.map",
-    "787.dc9ee2bf.chunk.js.map": "/resume/static/js/787.dc9ee2bf.chunk.js.map"
+    "main.css": "/www.longstaff.dev/static/css/main.339f9b87.css",
+    "main.js": "/www.longstaff.dev/static/js/main.f9df4f17.js",
+    "static/js/787.dc9ee2bf.chunk.js": "/www.longstaff.dev/static/js/787.dc9ee2bf.chunk.js",
+    "index.html": "/www.longstaff.dev/index.html",
+    "main.339f9b87.css.map": "/www.longstaff.dev/static/css/main.339f9b87.css.map",
+    "main.f9df4f17.js.map": "/www.longstaff.dev/static/js/main.f9df4f17.js.map",
+    "787.dc9ee2bf.chunk.js.map": "/www.longstaff.dev/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.339f9b87.css",
-    "static/js/main.f8a0a3ec.js"
+    "static/js/main.f9df4f17.js"
   ]
 }
