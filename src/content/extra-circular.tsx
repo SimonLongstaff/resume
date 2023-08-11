@@ -15,8 +15,8 @@ function ExtraCircular() {
     return (
         <div>
             <div className="pt-16 flex content-start">
-                <MdGroup className=" dark:text-white text-2xl lg:text-5xl"/>
-                <h1 className={"text-2xl lg:text-5xl font-semibold text-gray-800 dark:text-white pl-4"}>Extra
+                <MdGroup className="text-white text-2xl lg:text-5xl"/>
+                <h1 className={"text-2xl lg:text-5xl font-semibold text-white pl-4"}>Extra
                     Circular</h1>
             </div>
 

@@ -26,8 +26,8 @@ function Projects() {
     return (
         <div>
             <div className="pt-16 flex content-start">
-                <MdModeEdit className=" dark:text-white text-2xl lg:text-5xl"/>
-                <h1 className={"text-2xl lg:text-5xl font-semibold text-gray-800 dark:text-white pl-4"}>Projects</h1>
+                <MdModeEdit className=" text-white text-2xl lg:text-5xl"/>
+                <h1 className={"text-2xl lg:text-5xl font-semibold text-white pl-4"}>Projects</h1>
             </div>
 
 
@@ -45,7 +45,7 @@ function Projects() {
                                     factory settings.</h2>
                             </ProjectHeader>
 
-                            <ul className={"list-disc list-inside  dark:text-white text-left p-4"}>
+                            <ul className={"list-disc list-inside text-white text-left p-4"}>
                                 <li>A comprehensive suite of web applications including a Windows service, a single page
                                     application, and a REST API.
                                 </li>
@@ -76,7 +76,7 @@ function Projects() {
                                     bluetooth enabled tools</h2>
                             </ProjectHeader>
 
-                            <ul className={"list-disc list-inside  dark:text-white text-left p-4"}>
+                            <ul className={"list-disc list-inside text-white text-left p-4"}>
                                 <li>Android application using React Native to establish Bluetooth
                                     connectivity with smart tools for efficient data recording and
                                     processing.
@@ -113,7 +113,7 @@ function Projects() {
 
                             </ProjectHeader>
 
-                            <ul className={"list-disc list-inside  dark:text-white text-left p-4"}>
+                            <ul className={"list-disc list-inside text-white text-left p-4"}>
                                 <li>Node.js REST API for a web application that allows users to
                                     create,
                                     read, update, and delete data.
