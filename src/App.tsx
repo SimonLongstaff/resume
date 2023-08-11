@@ -74,7 +74,7 @@ function App() {
                 <ExtraCircular/>
             </div>
             <div className={"flex justify-center pb-4"}>
-                <div className={"text-center text-gray-500 text-xs"}>
+                <div className={"text-center text-gray-200 text-xs"}>
                     <p>© {GetCurrentYear()} Simon Longstaff</p>
                     <p>Powered by React</p>
                 </div>

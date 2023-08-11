@@ -18,7 +18,7 @@ const Hero = styled.div`
 `;
 
 const HeroImage = styled.div`
-  background-image: url("/images/computer.png");
+  background-image: url("./images/computer.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

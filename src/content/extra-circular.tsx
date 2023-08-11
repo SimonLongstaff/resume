@@ -93,10 +93,7 @@ const ExtraCircularFlex = styled.div`
 const Header = styled.div`
   margin-left: 15px;
   margin-top: 10px;
-
-  h2 {
-    margin-left: 5px;
-  }
+  
 `;
 
 const ActivityFlex = styled.div`

@@ -57,8 +57,8 @@ const ModalContent = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 100%;
+  max-height: 100vh;
   text-align: center;
 `;
 
@@ -69,39 +69,40 @@ const ModalArrows = styled.div`
 `;
 
 const ArrowButton = styled.button`
-  background: rgb(31 41 55);
+  background: none;
   border: none;
   cursor: pointer;
   font-size: 32px;
   color: white;
   padding: 10px;
-  transition: color 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   outline: none;
 
   &:hover {
-    rgb(26 32 44);
+    opacity: 0.8;
   }
 `;
 
 const CloseButton = styled.button`
   margin-top: auto;
-  background: rgba(150, 0, 0, 1);
+  background: red;
   border: none;
   cursor: pointer;
   font-size: 24px;
   color: white;
   padding: 10px;
-  transition: color 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   outline: none;
+  margin-bottom: 10px;
 
   &:hover {
-    background: rgba(170, 0, 0, 1);
+    opacity: 0.8;
   }
 `;
 
 const ModalImage = styled.img`
   max-width: 100%;
-  max-height: calc(100% - 80px); /* Account for space taken by arrows and close button */
+  max-height: 100vh; /* Adjusted to fit the viewport height */
   object-fit: contain;
 `;
 
@@ -155,10 +156,11 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({images}) => {
                     <ModalContent>
                         <ModalArrows>
                             <ArrowButton onClick={handlePrevImage}>&larr;</ArrowButton>
+                            <CloseButton onClick={handleCloseModal}>Close</CloseButton>
                             <ArrowButton onClick={handleNextImage}>&rarr;</ArrowButton>
                         </ModalArrows>
-                        <ModalImage src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`}/>
-                        <CloseButton onClick={handleCloseModal}>Close</CloseButton>
+                        <ModalImage src={images[currentImageIndex]} onClick={handleCloseModal}
+                                    alt={`Image ${currentImageIndex}`}/>
                     </ModalContent>
                 </ModalOverlay>
             )}

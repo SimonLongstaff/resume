@@ -5,7 +5,10 @@ import styled from "styled-components";
 import ImageGallery from "../components/image-gallery";
 
 const curatasImages: string[] = [
+    './curatas/home.png',
     './curatas/Guidance.png',
+    './curatas/Sequence.png',
+    './curatas/sequence2.png',
     './curatas/results.png',
     './curatas/results 2.png',
 ];
@@ -191,9 +194,6 @@ const ProjectHeader = styled.div`
   margin-left: 15px;
   margin-top: 10px;
 
-  h2 {
-    margin-left: 5px;
-  }
 `;
 
 

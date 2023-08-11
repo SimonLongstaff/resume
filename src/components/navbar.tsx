@@ -76,6 +76,7 @@ const GithubButton = styled.a`
   background-color: rgba(255, 255, 255, 0);
   color: #333;
   border: 1px solid #333;
+  margin-right: 5px;
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
@@ -144,7 +145,7 @@ function Navbar() {
                 <AiFillGithub className={"inline-block text-2xl"}/>
             </GithubButton>
 
-            
+
         </Nav>
     );
 }

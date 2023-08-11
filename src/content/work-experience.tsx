@@ -79,10 +79,7 @@ const WorkFlex = styled.div`
 
 const WorkInfoHeader = styled.div`
   margin-left: 15px;
-
-  h2 {
-    margin-left: 5px;
-  }
+  
 `;
 
 
