@@ -1,6 +1,5 @@
 {
   "name": "resume",
-  "homepage": "www.longstaff.dev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
