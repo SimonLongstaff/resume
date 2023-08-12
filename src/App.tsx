@@ -22,10 +22,10 @@ const AnimatedBackground = styled.div`
   left: 0;
   z-index: -1;
   background-image: linear-gradient(-45deg,
-  rgba(10, 42, 68, 1) 0%,
-  rgba(16, 81, 101, 1) 25%,
-  rgba(25, 21, 84, 1) 51%,
-  rgba(33, 5, 44, 1) 100%);
+  rgb(218, 201, 118) 0%,
+  rgb(24, 110, 136) 25%,
+  rgb(32, 27, 114) 51%,
+  rgb(132, 106, 211) 100%);
   -webkit-animation: AnimateBG 20s ease infinite;
   animation: AnimateBG 20s ease infinite;
 
@@ -61,17 +61,19 @@ function App() {
             <Navbar/>
             <a id={"home"}/>
             <HeroBanner/>
-            <div className={"flex-col p-2 justify-center m-10"}>
-                <a id={"profile"}/>
-                <Profile/>
-                <a id={"education"}/>
-                <Education/>
-                <a id={"work-experience"}/>
-                <WorkExperience/>
-                <a id={"projects"}/>
-                <Projects/>
-                <a id={"extra-circular"}/>
-                <ExtraCircular/>
+            <div className={"flex justify-items-center justify-center"}>
+                <div className={"flex-col p-2 justify-center justify-items-center m-10 max-w-screen-2xl"}>
+                    <a id={"profile"}/>
+                    <Profile/>
+                    <a id={"education"}/>
+                    <Education/>
+                    <a id={"work-experience"}/>
+                    <WorkExperience/>
+                    <a id={"projects"}/>
+                    <Projects/>
+                    <a id={"extra-circular"}/>
+                    <ExtraCircular/>
+                </div>
             </div>
             <div className={"flex justify-center pb-4"}>
                 <div className={"text-center text-gray-200 text-xs"}>

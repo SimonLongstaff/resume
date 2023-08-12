@@ -144,12 +144,6 @@ const ProjectsFlex = styled.div`
   align-items: center;
   margin-top: 20px;
 
-  @media (max-width: 1080px) {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   & > div {
     margin: 20px;
   }
@@ -159,6 +153,18 @@ const ProjectsFlex = styled.div`
     text-align: left;
 
   }
+
+  @media (max-width: 1080px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      margin: 5px 0;
+    }
+  }
+
+
 `
 
 const ProjectFlex = styled.div`
@@ -193,6 +199,10 @@ const ReverseProjectFlex = styled.div`
 const ProjectHeader = styled.div`
   margin-left: 15px;
   margin-top: 10px;
+
+  @media (max-width: 1080px) {
+    margin: 10px 15px;
+  }
 
 `;
 

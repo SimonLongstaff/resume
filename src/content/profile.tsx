@@ -10,20 +10,12 @@ const ProfileFlex = styled.div`
   @media (max-width: 1080px) {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
-`;
-
-const Linebreak = styled.hr`
-  border: 2px solid #00c4ff;
-  width: 100%;
-  margin: 0;
-  padding: 0;
 `;
 
 const HeadShot = styled.img`
   height: fit-content;
-  max-height: 60vh;
+  max-height: 65vh;
 
   @media (max-width: 1080px) {
     max-height: 100vh;
@@ -41,7 +33,6 @@ const ProfileInfo = styled.div`
   @media (max-width: 1080px) {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding: 5px;
   }
 `;
@@ -56,8 +47,7 @@ const ProfileSkills = styled.div`
   @media (max-width: 1080px) {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 10px;
+    padding: 20px;
     width: 100%;
   }
 `;
@@ -72,8 +62,7 @@ const ProfileDescription = styled.div`
   @media (max-width: 1080px) {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: 20px;
+    margin: 5px;
   }
 `;
 

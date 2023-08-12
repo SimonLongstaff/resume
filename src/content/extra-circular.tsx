@@ -87,13 +87,21 @@ const ExtraCircularFlex = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    li {
+      margin: 5px 0;
+    }
   }
 `;
 
 const Header = styled.div`
   margin-left: 15px;
   margin-top: 10px;
-  
+
+  @media (max-width: 1080px) {
+    margin: 10px 15px;
+  }
+
 `;
 
 const ActivityFlex = styled.div`

@@ -64,22 +64,27 @@ const WorkFlex = styled.div`
   align-items: center;
   margin-top: 20px;
 
-  @media (max-width: 1080px) {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   li {
     margin: 10px;
     text-align: left;
 
   }
+
+  @media (max-width: 1080px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      margin: 5px 0;
+    }
+  }
+
 `;
 
 const WorkInfoHeader = styled.div`
   margin-left: 15px;
-  
+
 `;
 
 
