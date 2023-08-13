@@ -3,6 +3,7 @@ import {MdEmail, MdHome, MdWork} from 'react-icons/md';
 import LanguageBar from "../components/languageBar";
 import styled from "styled-components";
 import Card from "../components/Card";
+import SkillList from "../components/skill-list";
 
 const ProfileFlex = styled.div`
   display: flex;
@@ -108,12 +109,21 @@ function Profile() {
                     <ProfileDescription>
                         <h2 className="text-2xl mb-2 font-semibold text-center text-white">About
                             Me</h2>
-                        <p className="text-gray-200">
+                        <p className="text-gray-200 pt-2">
                             I am a software engineer with a passion for creating and building new things. I
                             have a strong interest in the latest technologies and am always looking to learn
                             new things. I have a strong background in JavaScript and TypeScript and have
-                            experience working with React, React Native, Node.js, and Svlete. I also have
-                            experience working with C#, SQL, and Python. I have recently moved to Tokyo and
+                            experience working with React, React Native and Node.js. I also have
+                            experience working with C#, SQL, and Python.
+                        </p>
+
+                        <p className="text-gray-200 pt-2">
+                            I have proven experience working in an agile environment and have experience
+                            working with both Kanban and Scrum. My work has focused on building web solutions
+                            for IoT devices used in the industrial sector.
+                        </p>
+                        <p className="text-gray-200 pt-2">
+                            I have recently moved to Tokyo and
                             am looking for a new opportunity to grow and learn.
                         </p>
                     </ProfileDescription>
@@ -131,12 +141,19 @@ function Profile() {
                         <LanguageBar language={"Python"} percent={30} level={"Junior"}/>
                     </div>
 
-                    <div className="w-full my-10">
+                    <div className="w-full mt-5">
+                        <h2 className="text-2xl mb-2 font-semibold text-white">Technologies</h2>
+                        <SkillList
+                            skills={["React", "React Native", "Django", ".Net", "Angular", "Nest Js", "Fast API", "HTML", "CSS", "Git", "CI/CD", "Jest", "Cypress", "Linux"]}/>
+                    </div>
+
+                    <div className="w-full mt-5">
                         <h2 className="text-2xl mb-2 font-semibold text-white">Spoken
                             Languages</h2>
                         <LanguageBar language={"English"} percent={100} level={"Native"}/>
                         <LanguageBar language={"Japanese"} percent={10} level={"Beginner / N5"}/>
                     </div>
+
                 </ProfileSkills>
             </ProfileFlex>
         </Card>

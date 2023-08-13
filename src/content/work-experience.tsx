@@ -18,7 +18,7 @@ function WorkExperience() {
                         <h1 className={"text-left text-4xl font-bold text-white flex justify-between items-center "}>
                             Software Engineer
                             <span
-                                className={"text-base text-end rounded p-2 ml-2 text-blue-300 "}>2 Years, 6 Months</span>
+                                className={" text-2xl text-end rounded p-2 ml-2 text-blue-300 "}>2 Years, 6 Months</span>
                         </h1>
                         <h2 className={"text-left text-1xl font-semibold text-white "}>
                             <MdOutlineAlternateEmail className={"inline-block mr-2"}/>

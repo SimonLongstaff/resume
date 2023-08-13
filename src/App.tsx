@@ -24,7 +24,7 @@ const AnimatedBackground = styled.div`
   background-image: linear-gradient(-45deg,
   rgb(218, 201, 118) 0%,
   rgb(24, 110, 136) 25%,
-  rgb(32, 27, 114) 51%,
+  rgb(45, 39, 150) 51%,
   rgb(132, 106, 211) 100%);
   -webkit-animation: AnimateBG 20s ease infinite;
   animation: AnimateBG 20s ease infinite;

@@ -13,7 +13,7 @@ class LanguageBar extends Component<{ language: string, percent: number, level: 
                         </span>
                     </div>
                     <div className="text-right">
-                        <span className="text-xs font-semibold inline-block text-blue-600">
+                        <span className="text-xs font-semibold inline-block text-blue-300">
                             {level}
                         </span>
                     </div>
