@@ -34,7 +34,7 @@ function Projects() {
             <ProjectsFlex>
                 <Card className={"bg-gray-800 border-gray-700"}>
                     <ProjectFlex>
-                        <div>
+                        <div className={"p-5"}>
                             <ProjectHeader>
                                 <h1 className={"text-left text-4xl font-bold text-white "}>
                                     <a href={"https://crane-electronics.com/products/torque-software/curatas-wrench-control/"}>Curatas</a>
@@ -66,7 +66,7 @@ function Projects() {
 
                 <Card className={"bg-gray-800 border-gray-700"}>
                     <ReverseProjectFlex>
-                        <div>
+                        <div className={"p-5"}>
                             <ProjectHeader>
                                 <h1 className={"text-left text-4xl font-bold text-white "}>
                                     Android Wrench Control
@@ -98,7 +98,7 @@ function Projects() {
 
                 <Card className={"bg-gray-800 border-gray-700"}>
                     <ProjectFlex>
-                        <div>
+                        <div className={"p-5"}>
                             <ProjectHeader>
                                 <h1 className={"text-left text-4xl font-bold text-white "}>
                                     Nest.js REST API

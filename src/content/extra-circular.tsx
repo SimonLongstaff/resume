@@ -23,7 +23,7 @@ function ExtraCircular() {
             <ExtraCircularFlex>
                 <Card className={"bg-gray-800 border-gray-700 "}>
                     <ActivityFlex>
-                        <div>
+                        <div className={"p-5"}>
                             <Header>
                                 <h1 className={"text-left text-4xl font-bold text-white flex justify-between items-center "}>
                                     <span>Japanese Society</span>
