@@ -29,7 +29,7 @@ const ProfileInfo = styled.div`
   flex-direction: column;
   justify-content: space-around;
   align-items: start;
-  padding: 20px;
+  padding: 15px;
   margin: 0 10px 30px 10px;
   @media (max-width: 1080px) {
     flex-direction: column;
@@ -44,7 +44,7 @@ const ProfileSkills = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 15px;
   @media (max-width: 1080px) {
     flex-direction: column;
     justify-content: center;
@@ -107,9 +107,9 @@ function Profile() {
                     </div>
 
                     <ProfileDescription>
-                        <h2 className="text-2xl mb-2 font-semibold text-center text-white">About
+                        <h2 className="text-3xl mb-2 font-semibold text-center text-white">About
                             Me</h2>
-                        <p className="text-gray-200 pt-2">
+                        <p className="text-gray-200 text-xl pt-2">
                             I am a software engineer with a passion for creating and building new things. I
                             have a strong interest in the latest technologies and am always looking to learn
                             new things. I have a strong background in JavaScript and TypeScript and have
@@ -117,12 +117,12 @@ function Profile() {
                             experience working with C#, SQL, and Python.
                         </p>
 
-                        <p className="text-gray-200 pt-2">
+                        <p className="text-gray-200  text-xl  pt-2">
                             I have proven experience working in an agile environment and have experience
                             working with both Kanban and Scrum. My work has focused on building web solutions
                             for IoT devices used in the industrial sector.
                         </p>
-                        <p className="text-gray-200 pt-2">
+                        <p className="text-gray-200  text-xl  pt-2">
                             I have recently moved to Tokyo and
                             am looking for a new opportunity to grow and learn.
                         </p>
