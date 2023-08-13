@@ -30,12 +30,6 @@ function AnimatedBackground() {
 export default AnimatedBackground;
 
 const StyledAnimatedBackground = styled.div`
-  @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
-  * {
-    margin: 0px;
-    padding: 0px;
-  }
 
   .context {
     width: 100%;

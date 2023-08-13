@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import {MdClose} from 'react-icons/md';
 import styled from 'styled-components';
 
 interface ImageGalleryProps {
@@ -65,7 +66,7 @@ const ModalContent = styled.div`
 const ModalArrows = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin: 10px;
 `;
 
 const ArrowButton = styled.button`
@@ -77,6 +78,7 @@ const ArrowButton = styled.button`
   padding: 10px;
   transition: opacity 0.3s ease-in-out;
   outline: none;
+
 
   &:hover {
     opacity: 0.8;
@@ -93,7 +95,8 @@ const CloseButton = styled.button`
   padding: 10px;
   transition: opacity 0.3s ease-in-out;
   outline: none;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  border-radius: 10px;
 
   &:hover {
     opacity: 0.8;
@@ -156,7 +159,7 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({images}) => {
                     <ModalContent>
                         <ModalArrows>
                             <ArrowButton onClick={handlePrevImage}>&larr;</ArrowButton>
-                            <CloseButton onClick={handleCloseModal}>Close</CloseButton>
+                            <CloseButton> <MdClose onClick={handleCloseModal}></MdClose></CloseButton>
                             <ArrowButton onClick={handleNextImage}>&rarr;</ArrowButton>
                         </ModalArrows>
                         <ModalImage src={images[currentImageIndex]} onClick={handleCloseModal}
