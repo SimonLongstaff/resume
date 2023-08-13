@@ -8,12 +8,13 @@ import Navbar from "./components/navbar";
 import HeroBanner from "./content/hero";
 import styled from "styled-components";
 import ExtraCircular from "./content/extra-circular";
+import AnimatedBackground from "./components/animated-background";
 
 const GetCurrentYear = () => {
     return new Date().getFullYear();
 }
 
-const AnimatedBackground = styled.div`
+const AnimatedBackgroundContainer = styled.div`
   width: 100%;
   height: 100vh;
   background-size: 300% 300%;
@@ -57,7 +58,9 @@ const AnimatedBackground = styled.div`
 function App() {
     return (
         <div>
-            <AnimatedBackground/>
+            <AnimatedBackgroundContainer>
+                <AnimatedBackground/>
+            </AnimatedBackgroundContainer>
             <Navbar/>
             <a id={"home"}/>
             <HeroBanner/>

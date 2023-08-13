@@ -67,6 +67,12 @@ const ProfileDescription = styled.div`
   }
 `;
 
+const ProfileName = styled.h1`
+  @media (max-width: 1080px) {
+    margin-top: 5px
+  }
+`
+
 
 function Profile() {
     return (
@@ -81,8 +87,8 @@ function Profile() {
                 <ProfileInfo>
                     <div>
                         <div>
-                            <h1 className=" text-4xl font-semibold text-white">Simon
-                                Longstaff</h1>
+                            <ProfileName className="text-4xl font-semibold text-white">Simon
+                                Longstaff</ProfileName>
                         </div>
                         <div className="py-2">
                             <div className=" flex justify-start items-center">
@@ -107,8 +113,6 @@ function Profile() {
                     </div>
 
                     <ProfileDescription>
-                        <h2 className="text-3xl mb-2 font-semibold text-center text-white">About
-                            Me</h2>
                         <p className="text-gray-200 text-xl pt-2">
                             I am a software engineer with a passion for creating and building new things. I
                             have a strong interest in the latest technologies and am always looking to learn
@@ -151,7 +155,7 @@ function Profile() {
                         <h2 className="text-2xl mb-2 font-semibold text-white">Spoken
                             Languages</h2>
                         <LanguageBar language={"English"} percent={100} level={"Native"}/>
-                        <LanguageBar language={"Japanese"} percent={10} level={"Beginner / N5"}/>
+                        <LanguageBar language={"Japanese"} percent={10} level={"Beginner"}/>
                     </div>
 
                 </ProfileSkills>
