@@ -159,7 +159,9 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({images}) => {
                     <ModalContent>
                         <ModalArrows>
                             <ArrowButton onClick={handlePrevImage}>&larr;</ArrowButton>
-                            <CloseButton> <MdClose onClick={handleCloseModal}></MdClose></CloseButton>
+                            <CloseButton onClick={handleCloseModal}>
+                                <MdClose/>
+                            </CloseButton>
                             <ArrowButton onClick={handleNextImage}>&rarr;</ArrowButton>
                         </ModalArrows>
                         <ModalImage src={images[currentImageIndex]} onClick={handleCloseModal}
